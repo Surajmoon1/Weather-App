@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: wheat;
+}
+
+body{
+    background-color: #212121;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100dvh;
+    gap: 30px;
+}
+
+img{
+    height: 20%;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#search{
+    padding: 10px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: wheat;
+    font-size: larger;
+    color: black;
+}
+
+@media (max-width:600px){
+    h1{
+        text-align: center;
+    }
+}
